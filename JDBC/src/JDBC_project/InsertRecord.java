@@ -13,7 +13,7 @@ public class InsertRecord {
 		
 		String url = "jdbc:mysql://localhost/num";
 		String username= "root";
-		String password = "Bindu@1314";
+		String password = 
 		
 		Connection connection  = DriverManager.getConnection(url,username,password);
 		System.out.println(connection+"connection success");
